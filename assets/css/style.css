@@ -1,0 +1,38 @@
+.container {
+    width: 100%;
+    margin: 1% auto; 
+    text-align: center;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 6em;
+    color: antiquewhite; 
+}
+
+.col-12 {
+  background-color: yellow;
+  padding: 5%;
+  margin: 0.5%;
+  
+}
+
+.col-8 {
+  background-color: aqua;
+  width: 55%;
+  padding: 20%;
+  margin: 0.5%;
+}
+
+.col-6 {
+  background-color: violet;
+  width: 43%;
+  padding: 20%;
+  margin: 0.5%;
+}
+
+@media (min-width : 200px ) and (max-width:424px) {
+  .col-8 {
+    width: 100%;
+ }
+  .col-6 {
+    width: 100%;
+  }
+}
